@@ -17,11 +17,6 @@ export default function Providers({ children }: { children: React.ReactNode }) {
             createOnLogin: 'off',
           },
         },
-        externalWallets: {
-          ethos: {
-            enabled: true,
-          },
-        },
       }}
     >
       {children}
